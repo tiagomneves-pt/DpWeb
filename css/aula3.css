@@ -1,0 +1,111 @@
+
+    * {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        height: 2000px;
+    }
+    /*ICON SOCIAL*/
+    #icons-social{
+        background-color: beige;
+        position: fixed;
+        top: 200px;
+        right: 200px;
+    }
+    
+    #icons-social .icon-social{
+            padding: 1rem;
+            
+    }
+    
+    /*EQUIPA*/
+    #equipa{
+        width: 80%;
+        margin: 2rem auto;
+    }
+    #equipa h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    #equipa .nome{
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+
+    #equipa .cargo{
+        font-size: .8rem;
+        padding: 5px;
+
+    }
+    .pessoa{
+        display: inline-block;
+        width: 24%;
+    }
+
+    .pessoa img{
+        width: 100%;
+    }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #equipa{
+        width: 90%;
+    }
+
+    #equipa .pessoa{
+        width: 49%;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #equipa{
+        width: 80%;
+        margin: 2rem auto;
+
+    }
+
+    #equipa .pessoa{
+        width: 49%;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #equipa{
+        width: 60%;
+        margin: 2rem auto;
+
+    }
+
+    #equipa .pessoa{
+        width: 49%;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #equipa{
+        width: 40%;
+        margin: 2rem auto;
+
+    }
+
+    #equipa .pessoa{
+        width: 24%;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    #equipa{
+        width: 20%;
+        margin: 2rem auto;
+
+    }
+
+    #equipa .pessoa{
+        width: 24%;
+    }
+ }
