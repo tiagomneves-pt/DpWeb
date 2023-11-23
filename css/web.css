@@ -1,0 +1,9 @@
+.color-area1{background-color: rgba(156, 2, 91, 1);}  /* magenta Auditoria e Sistemas*/
+.color-area2{background-color: rgba(0, 119, 187, 1);} /* azul  Contabilidade e Fiscalidade*/
+.color-area3{background-color: rgba(191, 4, 17, 1);}  /* vermelho Direito */
+.color-area4{background-color: rgba(143, 180, 53, 1);}/* verde Gestão*/
+.color-area5{background-color: rgba(34, 139, 34, 1);}/* verde Marketing*/
+
+body{
+	margin-bottom: 200px;
+}
